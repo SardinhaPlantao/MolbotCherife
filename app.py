@@ -12,8 +12,8 @@ st.set_page_config(
 )
 
 # ================= CONFIGURAÇÃO =================
-# CORREÇÃO: Token com 'F' maiúsculo (erro anterior: NZBEfM7BSBOG)
-TOKEN = "8342975161:AAE3FZ_NZBEFM7BSBOGT7HVOmhBUCIbWBI1s"
+# NOVO TOKEN CORRETO (criado agora)
+TOKEN = "8342975161:AAE3FZ_NZBEfM7BSBOGT7HVOmhBUC1WB1Is"
 YOUR_ID = "704297959"
 BOT_USERNAME = "@CherifeBot"
 # ================================================
