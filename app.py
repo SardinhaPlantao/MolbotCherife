@@ -14,8 +14,9 @@ st.markdown("""
 
 ---
 
-### 🔑 Seu Token (GUARDE EM SEGURANÇA!)
-8342975161:AaE3FZ_NZBEFM7BSBOGT7HVOmhBUCIWBIIS
+### 🔑 Seu Token (GUARDE EM SEGURANÇA!) 
+8342975161:AAE3FZ_NZBEfM7BSBOGT7HVOmhBUCIbWBI1s
+
 
 ---
 
@@ -25,7 +26,7 @@ st.markdown("""
 # Seção 1: Verificar bot
 st.subheader("1. Verificar conexão do bot")
 if st.button("Testar conexão com Telegram"):
-    token = "8342975161:AaE3FZ_NZBEFM7BSBOGT7HVOmhBUCIWBIIS"
+    token = "8342975161:AAE3FZ_NZBEfM7BSBOGT7HVOmhBUCIbWBI1s"
     url = f"https://api.telegram.org/bot{token}/getMe"
     try:
         response = requests.get(url, timeout=10)
@@ -38,7 +39,7 @@ if st.button("Testar conexão com Telegram"):
     except Exception as e:
         st.error(f"❌ Erro de conexão: {e}")
 
-# Seção 2: Configurar webhook simples
+# Seção 2: Configurar resposta automática
 st.subheader("2. Configurar resposta automática")
 
 user_id = st.text_input("Seu User ID (do @userinfobot):")
@@ -78,9 +79,8 @@ Quer que eu te envie o código completo para rodar o bot?
 if st.button("📋 Sim, me envie o código do bot!"):
     st.code("""
 import telebot
-import os
 
-TOKEN = "8342975161:AaE3FZ_NZBEFM7BSBOGT7HVOmhBUCIWBIIS"
+TOKEN = "8342975161:AAE3FZ_NZBEfM7BSBOGT7HVOmhBUCIbWBI1s"
 YOUR_ID = "SEU_USER_ID_AQUI"
 
 bot = telebot.TeleBot(TOKEN)
